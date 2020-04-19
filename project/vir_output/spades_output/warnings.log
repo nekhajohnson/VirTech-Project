@@ -1,0 +1,7 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:21.592   208M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 218)   Too many erroneous kmers, the estimates might be unreliable
+ * 0:00:37.300   252M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 327)   Valley value was estimated improperly, reset to 19
+ * 0:00:37.301   252M / 4G    WARN    General                 (kmer_coverage_model.cpp   : 366)   Failed to determine erroneous kmer threshold. Threshold set to: 19
+ * 0:00:44.869   176M / 4G    WARN    General                 (simplification.cpp        : 578)   The determined erroneous connection coverage threshold may be determined improperly
+======= Warnings saved to /home/samuella123/ncbi/public/sra/VirTech/VirTech-Project/project/vir_output/spades_output/warnings.log

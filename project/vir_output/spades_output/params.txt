@@ -1,0 +1,31 @@
+Command line: /home/samuella123/miniconda3/envs/genome_assembly_env/bin/spades.py	-1	/home/samuella123/ncbi/public/sra/SRR11535172_1_paired.fastq	-2	/home/samuella123/ncbi/public/sra/SRR11535172_2_paired.fastq	--only-assembler	-o	/home/samuella123/ncbi/public/sra/VirTech/VirTech-Project/project/vir_output/spades_output	
+
+System information:
+  SPAdes version: 3.11.1
+  Python version: 3.6.7
+  OS: Linux-4.4.0-18362-Microsoft-x86_64-with-debian-buster-sid
+
+Output dir: /home/samuella123/ncbi/public/sra/VirTech/VirTech-Project/project/vir_output/spades_output
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/samuella123/ncbi/public/sra/SRR11535172_1_paired.fastq']
+      right reads: ['/home/samuella123/ncbi/public/sra/SRR11535172_2_paired.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/samuella123/ncbi/public/sra/VirTech/VirTech-Project/project/vir_output/spades_output/tmp
+  Threads: 16
+  Memory limit (in Gb): 7
+

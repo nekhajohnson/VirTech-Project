@@ -1,0 +1,6 @@
+- "left reads":
+  - "/home/samuella123/ncbi/public/sra/SRR11535172_1_paired.fastq"
+  "orientation": "fr"
+  "right reads":
+  - "/home/samuella123/ncbi/public/sra/SRR11535172_2_paired.fastq"
+  "type": "paired-end"
