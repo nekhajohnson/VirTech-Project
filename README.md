@@ -1,4 +1,4 @@
-# VirTech-Project
+# VirFinder
 Command line program to find virulent genes. 
 
 Team Roles
